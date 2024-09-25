@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Facial Emotion Recognition</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Facial Emotion Recognition</h1>
+        <div class="input-section">
+            <label for="imageUpload" class="custom-file-upload">
+                Upload Image
+                <input type="file" id="imageUpload" accept="image/*">
+            </label>
+            <button id="startWebcam">Start Webcam</button>
+        </div>
+        <div class="output-section">
+            <video id="webcam" autoplay muted></video>
+            <img id="uploadedImage" alt="Uploaded image">
+            <canvas id="overlay"></canvas>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs-core"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs-converter"></script>
+    <script src="https://cdn.jsdelivr.net/npm/face-api.js"></script>
+    <script src="js/face-detection.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

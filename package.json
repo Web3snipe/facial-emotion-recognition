@@ -1,0 +1,18 @@
+{
+  "name": "facial-emotion-recognition",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@tensorflow/tfjs-converter": "^4.21.0",
+    "@tensorflow/tfjs-core": "^4.21.0",
+    "axios": "^1.7.7",
+    "face-api.js": "^0.22.2"
+  }
+}
