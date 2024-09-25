@@ -11,9 +11,6 @@ Features
     Multiple Emotions Supported: Detects happiness, sadness, anger, surprise, and neutral expressions.
     Client-Side Processing: No server needed; runs entirely on the client-side using JavaScript.
 
-Demo
-
-Try the live demo here: Live Demo (You can replace this with the actual link to your demo or GitHub Pages if hosted).
 Table of Contents
 
     Installation
@@ -36,7 +33,7 @@ Steps to Run Locally
 
     bash
 
-    git clone https://github.com/your-username/facial-emotion-recognition-face-api.git
+    git clone https://github.com/Web3snipe/facial-emotion-recognition.git
     cd facial-emotion-recognition-face-api
 
     Open index.html in a browser: Simply open the index.html file in your preferred web browser to start using the application.
@@ -101,7 +98,7 @@ facial-emotion-recognition-face-api/
 ├── index.html                   # Main HTML page with buttons to upload an image or start the webcam
 ├── main.js                      # JavaScript for face detection and emotion recognition
 ├── styles.css                   # CSS for styling the page (optional)
-└── README.md                    # Project documentation (this file)
+└── READme.md                    # Project documentation (this file)
 
 index.html
 
