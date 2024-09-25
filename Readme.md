@@ -1,4 +1,5 @@
 Facial Emotion Recognition using face-api.js
+
 Overview
 
 This project implements Facial Emotion Recognition using face-api.js, a JavaScript library built on TensorFlow.js. Users can either upload an image or use their webcam to detect facial expressions directly in the browser. The detected emotions are displayed on the HTML canvas in real-time.
@@ -90,7 +91,8 @@ File Structure
 
 Here is the file structure for this project:
 
-plaintext
+
+
 
 facial-emotion-recognition-face-api/
 │
